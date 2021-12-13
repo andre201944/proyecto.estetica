@@ -1,0 +1,50 @@
+header .bg-nav {
+  background-color: cadetblue;
+}
+header nav ul li .nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  color: orangered;
+  padding: 3%;
+  text-align: center;
+}
+
+h2 {
+  color: #f55104;
+  text-align: center;
+}
+
+h3 {
+  color: indigo;
+}
+
+p {
+  font-size: 20px;
+}
+
+.intro {
+  padding-bottom: 5%;
+}
+
+.trat1,
+.trat2,
+.trat3 {
+  padding-bottom: 6%;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 50%;
+  height: 50%;
+}
+
+.prof1 {
+  width: 20%;
+  height: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+@import '../base/variables';
+
+h1{
+    color: orangered;
+    padding: 3%;
+    text-align: center;
+}
+h2{
+    color:rgb(245, 81, 4);
+    text-align: center;
+}
+h3{
+    color: indigo;
+}
+p{
+    font-size: 20px;
+
+}
+.intro{
+    padding-bottom: 5%;
+}
+.trat1,
+.trat2,
+.trat3{
+    padding-bottom: 6%;
+}
+.img1,
+.img2,
+.img3{
+    width: 50%;
+    height: 50%;
+}
+.prof1{
+    width: 20%;
+    height: 20%;
+}
