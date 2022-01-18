@@ -1,5 +1,16 @@
 @import '../base/variables';
 
+/*main*/
+
+
+.main{
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 12rem;
+    padding-bottom: 10%;
+}
+
 h1{
     color: orangered;
     padding: 3%;
@@ -8,6 +19,7 @@ h1{
 h2{
     color:rgb(245, 81, 4);
     text-align: center;
+    padding-bottom: 5%;
 }
 h3{
     color: indigo;
@@ -24,13 +36,95 @@ p{
 .trat3{
     padding-bottom: 6%;
 }
+
+/*Main Nosotros*/
+
+.containerImagenes{
+    display: grid;
+    grid-template-rows: repeat(1, 2fr);    
+    padding: 5%;
+    grid-gap: 10px;
+
+}
+
+
+
+/*Imagenes*/
+
+/*Imagenes Inicio*/
+
 .img1,
 .img2,
 .img3{
     width: 50%;
     height: 50%;
+    
 }
-.prof1{
+.prof1,
+.prof2{
     width: 20%;
     height: 20%;
+    clip-path: circle(40%);
 }
+
+
+/* Imagenes Nosotros*/
+.local1,
+.local2,
+.local3{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+
+/*Imagenes Tratamiento*/
+
+.iTrat1,
+.iTrat2,
+.iTrat3,
+.iTrat4,
+.iTrat5{
+    width: 40%;
+    height: 30%;
+    padding-top: 2%;
+    clip-path:inset(1px)
+}
+
+/*Imagenes Promocines*/
+.imgPromo1,
+.imgPromo2,
+.imgPromo3 {
+
+    clip-path: circle(170px at 175px);
+    padding-bottom: 1%;
+}
+
+/*main de contacto*/
+.mapa{
+    margin: 10%;
+    
+}
+
+
+
+    
+    
+
+
+
+@media screen and (max-width:800px){
+    .pieDePagina .grupo1{
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+    
+    
+    
+       

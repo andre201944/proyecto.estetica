@@ -1,0 +1,36 @@
+
+@import'../base/variables';
+
+
+.pieDePagina{
+    width: 100%;
+    background-image: linear-gradient(to right top, #74d16b, #73d67d,
+    #73da8f, #76de9f, #7be2ae, #85e5b1, #8ee8b5, #97ebb8, #a5edb1, #b4efab, #c3f1a5, #d2f2a0);
+}
+
+.pieDePagina .grupo1{
+
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 50px;
+    padding: 10px 0px;
+ }
+
+
+ .box .redSocial img {
+     display: inline-block;
+     text-decoration: none;
+     width: 45px;
+     height: 45px;
+     line-height: 45px;
+     margin-bottom: 20px;
+     transition: all 300ms;
+
+ }
+   
+    
+    
+

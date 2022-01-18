@@ -5,23 +5,31 @@
 
 header{
     .bg-nav {
-        background-color: cadetblue;
-      }
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(to right top, #74d16b, #73d67d,
+        #73da8f, #76de9f, #7be2ae, #85e5b1, #8ee8b5, #97ebb8, #a5edb1, #b4efab, #c3f1a5, #d2f2a0);
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        z-index: 100;
+    }
     
-    nav{
+        nav{
 
-        ul{
+            ul{
 
-            li{
+                li{
                 .nav-link{
-                color:black;
+                color:rgb(22, 5, 88);
                 font-size: 20px;
                 }
                    
                     
                 
                 
+                }
             }
         }
-    }
 }
